@@ -702,6 +702,7 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          color: var(--global-card-bg-color) !important;
           margin-bottom: 0.5rem;
 
           a {
@@ -713,7 +714,7 @@ footer.sticky-bottom {
           }
 
           .badge {
-            color: var(--global-card-bg-color) !important;
+            
             background-color: var(--global-theme-color) !important;
           }
         }
